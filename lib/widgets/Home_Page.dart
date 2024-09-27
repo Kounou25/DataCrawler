@@ -1,4 +1,5 @@
 import 'package:crawler/widgets/battery.dart';
+import 'package:crawler/widgets/usage.dart';
 import 'package:device_info_plus/device_info_plus.dart';
 import 'package:flutter/material.dart';
 
@@ -36,6 +37,7 @@ class HomePage extends StatelessWidget {
                 }),
           ),
           Batterie(),
+          UsageData(),
         ],
       ),
     );
