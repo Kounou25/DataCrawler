@@ -25,7 +25,7 @@ class HomePage extends StatelessWidget {
               AndroidDeviceInfo InfoTel = snapshot.data!;
               return Center(
                 child: Text(
-                    "Marque: ${InfoTel.brand}\n Model: ${InfoTel.model}🤣\n id const: ${InfoTel.id}\n interName: ${InfoTel.device}\n materiel : ${InfoTel.hardware}\n Fabricant: ${InfoTel.manufacturer}\n"),
+                    "Marque: ${InfoTel.brand}\n Model: ${InfoTel.model}🤣\n id const: ${InfoTel.id}\n interName: ${InfoTel.device}\n materiel : ${InfoTel.hardware}\n Fabricant: ${InfoTel.manufacturer}\n android sdk: ${InfoTel.version.sdkInt}\n version android: ${InfoTel.version.release}"),
               );
             }
             return CircularProgressIndicator();

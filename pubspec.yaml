@@ -10,6 +10,7 @@ dependencies:
   flutter:
     sdk: flutter
   device_info_plus: ^10.1.2
+  battery_plus: ^6.0.3
 
 dev_dependencies:
   flutter_test:
